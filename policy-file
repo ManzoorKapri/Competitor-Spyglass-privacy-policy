@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Local Competitor Spyglass</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #f8f9fa;
+        }
+        
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e8eaed;
+        }
+        
+        h1 {
+            color: #1a73e8;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #5f6368;
+            font-size: 1.2em;
+        }
+        
+        h2 {
+            color: #1a73e8;
+            margin: 30px 0 15px 0;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e8eaed;
+        }
+        
+        h3 {
+            color: #202124;
+            margin: 20px 0 10px 0;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #5f6368;
+        }
+        
+        ul {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            color: #5f6368;
+        }
+        
+        .highlight {
+            background: #e8f0fe;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #1a73e8;
+            margin: 20px 0;
+        }
+        
+        .contact-info {
+            background: #e6f4ea;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        .badge {
+            display: inline-block;
+            background: #1a73e8;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin: 5px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e8eaed;
+            color: #9aa0a6;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 20px 10px;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔒 Privacy Policy</h1>
+            <div class="subtitle">Local Competitor Spyglass Chrome Extension</div>
+            <div style="margin-top: 15px;">
+                <span class="badge">No Data Collection</span>
+                <span class="badge">Local Processing Only</span>
+                <span class="badge">Privacy First</span>
+            </div>
+        </header>
+
+        <section>
+            <h2>📋 Introduction</h2>
+            <p>Thank you for using Local Competitor Spyglass. Your privacy is extremely important to us, and we've designed this extension with privacy as a core principle from the ground up.</p>
+            
+            <div class="highlight">
+                <strong>TL;DR:</strong> We do not collect, store, or transmit any personal data. Everything happens locally in your browser.
+            </div>
+        </section>
+
+        <section>
+            <h2>🚫 What We Don't Collect</h2>
+            <p>To be perfectly clear, Local Competitor Spyglass does NOT collect:</p>
+            <ul>
+                <li><strong>Personal information</strong> (name, email, address, etc.)</li>
+                <li><strong>Browsing history</strong> or search queries</li>
+                <li><strong>Competitor data</strong> analyzed by the extension</li>
+                <li><strong>Location data</strong> or IP addresses</li>
+                <li><strong>Any information</strong> that leaves your browser</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>💾 Local Storage Usage</h2>
+            <p>The extension uses Chrome's local storage for essential functionality:</p>
+            <ul>
+                <li><strong>User Preferences:</strong> Dark mode settings, auto-analyze toggle</li>
+                <li><strong>Usage Count:</strong> Number of unique searches analyzed (for freemium model)</li>
+                <li><strong>Premium Status:</strong> Whether you've upgraded to premium</li>
+            </ul>
+            <p>All this data remains exclusively on your device and is never transmitted anywhere.</p>
+        </section>
+
+        <section>
+            <h2>🌐 Network Activity</h2>
+            <p>Local Competitor Spyglass makes zero external network requests:</p>
+            <ul>
+                <li><strong>No analytics</strong> or tracking calls</li>
+                <li><strong>No data transmission</strong> to our servers</li>
+                <li><strong>No third-party services</strong> integrated</li>
+                <li>The only external access is to Google search pages for analysis</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>🛡️ Permission Justification</h2>
+            <h3>activeTab Permission</h3>
+            <p>Required to analyze the current Google search results page and extract competitor information.</p>
+            
+            <h3>storage Permission</h3>
+            <p>Used to save your preferences locally on your device.</p>
+            
+            <h3>google.com Host Permission</h3>
+            <p>Necessary to access and analyze Google search results where competitors are listed.</p>
+        </section>
+
+        <section>
+            <h2>🔍 How It Works</h2>
+            <p>The extension operates entirely within your browser:</p>
+            <ol>
+                <li>You visit a Google search results page</li>
+                <li>Extension analyzes the page content locally</li>
+                <li>Competitor data is processed in real-time</li>
+                <li>Results are displayed in the extension popup</li>
+                <li>All data processing happens on your machine</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>📊 Data Processing Location</h2>
+            <p>All data processing occurs locally in your browser. No information is sent to external servers or cloud services.</p>
+        </section>
+
+        <section>
+            <h2>🔔 Changes to This Policy</h2>
+            <p>If we ever make changes to this privacy policy, we will:</p>
+            <ul>
+                <li>Update this page with a clear revision date</li>
+                <li>Notify users through the extension update process</li>
+                <li>Maintain our commitment to privacy-first principles</li>
+            </ul>
+        </section>
+
+        <div class="contact-info">
+            <h3>📬 Contact Information</h3>
+            <p>If you have any questions about this privacy policy, please contact us at:</p>
+            <p><strong>Email:</strong> manzoorkapri@gmail.com</p>
+        </div>
+
+        <footer>
+            <p><strong>Last Updated:</strong> December 2023</p>
+            <p>Local Competitor Spyglass - Built with privacy in mind</p>
+        </footer>
+    </div>
+</body>
+</html>
